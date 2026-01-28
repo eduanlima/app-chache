@@ -1,4 +1,4 @@
-package br.com.posterius.app_cache;
+package br.com.posterius;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
