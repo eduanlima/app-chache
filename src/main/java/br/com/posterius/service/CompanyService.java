@@ -15,6 +15,10 @@ public class CompanyService {
 	private CompanyRepository companyRepository;
 	
 	@Cacheable("companies")
+	public List<CompanyEntity> findAllWithCache() {
+		return findAll();
+	}
+	
 	public List<CompanyEntity> findAll() {
 		return (List<CompanyEntity>) companyRepository.findAll();
 	}
